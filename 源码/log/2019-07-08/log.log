@@ -1,0 +1,53 @@
+2019-07-08 10:10:34.118 [restartedMain] INFO  priv.jesse.mall.MallApplication - Starting MallApplication on DESKTOP-4RB6FSP with PID 68600 (started by 13578 in C:\Users\13578\Documents\SVN\WORK\JAVAEE\è´­ç‰©ç½‘ç«™ç³»ç»Ÿ\mall)
+2019-07-08 10:10:34.121 [restartedMain] DEBUG priv.jesse.mall.MallApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-07-08 10:10:34.121 [restartedMain] INFO  priv.jesse.mall.MallApplication - No active profile set, falling back to default profiles: default
+2019-07-08 10:10:34.377 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-07-08 10:10:36.813 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-08 10:10:36.814 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-07-08 10:10:36.939 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/mall] - Initializing Spring embedded WebApplicationContext
+2019-07-08 10:10:38.388 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-08 10:10:38.467 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-07-08 10:10:38.468 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-07-08 10:10:38.470 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-07-08 10:10:38.527 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-08 10:10:39.142 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-08 10:10:39.158 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-08 10:10:39.585 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-07-08 10:10:44.772 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-08 10:10:44.786 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-08 10:10:44.797 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-07-08 10:10:44.823 [restartedMain] INFO  priv.jesse.mall.MallApplication - Started MallApplication in 10.999 seconds (JVM running for 11.637)
+2019-07-08 10:13:19.775 [main] INFO  priv.jesse.mall.MallApplicationTests - Starting MallApplicationTests on DESKTOP-4RB6FSP with PID 47252 (started by 13578 in C:\Users\13578\Documents\SVN\WORK\JAVAEE\¹ºÎïÍøÕ¾ÏµÍ³\mall)
+2019-07-08 10:13:19.780 [main] DEBUG priv.jesse.mall.MallApplicationTests - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-07-08 10:13:19.780 [main] INFO  priv.jesse.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+2019-07-08 10:13:20.172 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-07-08 10:13:22.741 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-08 10:13:22.855 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-07-08 10:13:22.858 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-07-08 10:13:22.860 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-07-08 10:13:22.947 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-08 10:13:23.577 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-08 10:13:23.596 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-08 10:13:24.180 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-07-08 10:13:28.761 [main] INFO  priv.jesse.mall.MallApplicationTests - Started MallApplicationTests in 9.382 seconds (JVM running for 10.441)
+2019-07-08 10:13:28.830 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-07-08 10:15:31.247 [main] INFO  priv.jesse.mall.MallApplicationTests - Starting MallApplicationTests on DESKTOP-4RB6FSP with PID 64876 (started by 13578 in C:\Users\13578\Documents\SVN\WORK\JAVAEE\¹ºÎïÍøÕ¾ÏµÍ³\mall)
+2019-07-08 10:15:31.250 [main] DEBUG priv.jesse.mall.MallApplicationTests - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-07-08 10:15:31.250 [main] INFO  priv.jesse.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+2019-07-08 10:15:31.564 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-07-08 10:15:34.042 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-08 10:15:34.117 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-07-08 10:15:34.119 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-07-08 10:15:34.120 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-07-08 10:15:34.170 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-08 10:15:34.688 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-08 10:15:34.708 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-08 10:15:35.284 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-07-08 10:15:39.366 [main] INFO  priv.jesse.mall.MallApplicationTests - Started MallApplicationTests in 8.479 seconds (JVM running for 9.409)
+2019-07-08 10:15:39.447 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

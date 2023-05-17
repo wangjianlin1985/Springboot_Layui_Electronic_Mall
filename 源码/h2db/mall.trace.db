@@ -1,0 +1,45 @@
+2019-05-21 13:44:21 jdbc[6]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-196]
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:185)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:127)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:100)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:217)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1466)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2239)
+Caused by: org.h2.jdbc.JdbcSQLException: The connection was not closed by the application and is garbage collected [90018-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 16 more
+2019-05-29 15:40:22 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
+2019-05-29 15:40:31 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
+2019-05-29 15:40:32 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
+2019-05-29 15:40:35 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
+2019-05-29 15:40:35 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
+2019-05-29 15:40:35 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
+2019-05-29 15:40:36 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
+2019-05-29 15:40:43 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM ORDER[*]"; expected "identifier"; SQL statement:
+SELECT * FROM ORDER [42001-196]
